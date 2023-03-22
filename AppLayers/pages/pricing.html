@@ -1,0 +1,65 @@
+<section id="pricing" class="price_table_bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section_heading section_heading_2">
+					<h2> Pricing Table </h2>
+
+					<h4> We ensure quality & support. People love us & we love them. Here goes some simple dummy text.
+					</h4>
+				</div>
+
+				<div id="pricingCards">
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<script>
+	$.get("./pages/newsletter.html", function (result) {
+		$(target).insertAfter("#pricing");
+	});
+	$.getJSON("../json/pricing.json", function(jsonData){
+		//console.log(jsonData);
+		
+		$("#pricingCards").html("");
+		jsonData.forEach(element => {
+			$("#pricingCards").append(`
+			
+			<div class="col-md-4">
+						<div class="table-1">
+							<div class="discount">
+								<p> Save ${element.save}% </p>
+							</div>
+
+							<h3> ${element.title} </h3>
+
+							<div class="price_month">
+								<span class="round">
+									<h3> $${element.price} </h3>
+									<span>
+										<p> /Month </p>
+									</span>
+								</span>
+
+							</div>
+
+							<ul>
+								<li> ${element.details.space} GB Space </li>
+								<li> ${element.details.bandwith} GB Bandwidth</li>
+								<li> ${element.details.security} </li>
+							</ul>
+
+							<div class="section_sub_btn">
+								<button class="btn btn-default" type="submit"> <i class="fa fa-cart-plus"
+										aria-hidden="true"></i> Order Now</button>
+							</div>
+						</div>
+					</div>
+			`);
+		});
+		
+		});
+</script>

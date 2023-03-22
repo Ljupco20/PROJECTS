@@ -1,0 +1,30 @@
+[
+    {
+       "img": "testi_img1.png",
+       "firstName":"John",
+       "lastName": "Capone",
+       "position": "Web Art Director",
+       "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi odio, gravida at turpis et, porta bibendum justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi odio, gravida at turpis et, porta bibendum justo. "
+    },
+    {
+        "img": "testi_img1.png",
+        "firstName":"Marlon",
+        "lastName": "Leend",
+        "position": "Head Phographer",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi odio, gravida at turpis et, porta bibendum justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi odio, gravida at turpis et, porta bibendum justo. "
+     },
+     {
+        "img": "testi_img1.png",
+        "firstName":"Robert",
+        "lastName": "Son",
+        "position": "Marketing Director",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi odio, gravida at turpis et, porta bibendum justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi odio, gravida at turpis et, porta bibendum justo. "
+     },
+     {
+        "img": "testi_img1.png",
+        "firstName":"John",
+        "lastName": "Capone",
+        "position": "Web Art Director",
+        "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi odio, gravida at turpis et, porta bibendum justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi odio, gravida at turpis et, porta bibendum justo. "
+     }
+ ]

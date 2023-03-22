@@ -1,0 +1,26 @@
+[
+    {
+       "img": "/member_1.png",
+       "firstName":"John",
+       "lastName": "Capone",
+       "position": "Web Art Director"
+    },
+    {
+        "img": "/member_2.png",
+        "firstName":"Marlon",
+        "lastName": "Leend",
+        "position": "Head Phographer"
+     },
+     {
+        "img": "/member_3.png",
+        "firstName":"Robert",
+        "lastName": "Son",
+        "position": "Marketing Director"
+     },
+     {
+        "img": "/member_4.png",
+        "firstName":"John",
+        "lastName": "Capone",
+        "position": "Web Art Director"
+     }
+ ]
